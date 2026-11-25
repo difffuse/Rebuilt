@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.DS_Store
+/build/
+/dist/
+/installers/
+*.blend*
+*.npz
+*.obj
+*.fbx
+*.glb
+*.png
+*.jpg
+*.exr
+*.zip

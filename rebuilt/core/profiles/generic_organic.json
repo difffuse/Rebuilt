@@ -1,0 +1,27 @@
+{
+  "label": "Organic",
+  "description": "Rock, bark, ground scan. Detail follows curvature; the layout is packed, not tidy.",
+  "target_faces": 20000,
+  "texture_resolution": 4096,
+  "texel_density": 768.0,
+  "padding_px": 8,
+  "maps": [
+    "NORMAL",
+    "BASE_COLOR",
+    "AO"
+  ],
+  "strategy": "adaptive",
+  "unwrap_method": "ANGLE_BASED",
+  "rotate_method": "ANY",
+  "max_deviation": 0.006,
+  "max_stretch": 0.25,
+  "limits": {
+    "max_deviation_p95": 0.006,
+    "max_sliver_ratio": 0.03,
+    "min_uv_occupancy": 0.3,
+    "min_valid_bake_pixels": 0.99,
+    "max_stray_ratio": 0.01,
+    "budget_tolerance": 0.05,
+    "texel_density_tolerance": 0.15
+  }
+}

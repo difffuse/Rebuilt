@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Youtube Tutorial",
+    "link": "https://www.youtube.com/watch?v=7Pz7vvEWee8",
+    "icon": "PLAY"
+  },
+  {
+    "name": "Documentation",
+    "link": "https://difffuse.github.io/rebuilt-documentation/",
+    "icon": "HELP"
+  },
+  {
+    "name": "Discord Channel",
+    "link": "https://discord.com/invite/GC4ZzGkvhH",
+    "icon": "COMMUNITY"
+  },
+  {
+    "name": "Contact",
+    "link": "https://blendermarket.com/creators/difffusestudio",
+    "icon": "QUESTION"
+  }
+]

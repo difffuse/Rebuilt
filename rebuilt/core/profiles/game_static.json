@@ -1,0 +1,28 @@
+{
+  "label": "Game Static Prop",
+  "description": "Legacy profile: existing assets rebuild with their saved settings. This profile is hidden; use Organic or Hard Surface for new scans.",
+  "target_faces": 25000,
+  "texture_resolution": 4096,
+  "texel_density": 1024.0,
+  "padding_px": 8,
+  "maps": [
+    "NORMAL",
+    "BASE_COLOR",
+    "AO"
+  ],
+  "strategy": "auto",
+  "unwrap_method": "ANGLE_BASED",
+  "rotate_method": "ANY",
+  "max_deviation": 0.004,
+  "max_stretch": 0.15,
+  "limits": {
+    "max_deviation_p95": 0.004,
+    "max_sliver_ratio": 0.02,
+    "min_uv_occupancy": 0.35,
+    "min_valid_bake_pixels": 0.995,
+    "max_stray_ratio": 0.005,
+    "budget_tolerance": 0.05,
+    "texel_density_tolerance": 0.1
+  },
+  "listed": false
+}

@@ -1,0 +1,23 @@
+{
+  "label": "Hard Surface",
+  "description": "Machined or built geometry: flats stay flat, corners stay sharp, islands stay square.",
+  "target_faces": 8000,
+  "texture_resolution": 4096,
+  "texel_density": 1024.0,
+  "padding_px": 8,
+  "maps": ["NORMAL", "BASE_COLOR", "AO", "ROUGHNESS"],
+  "strategy": "hard_surface",
+  "unwrap_method": "ANGLE_BASED",
+  "rotate_method": "AXIS_ALIGNED",
+  "max_deviation": 0.002,
+  "max_stretch": 0.15,
+  "limits": {
+    "max_deviation_p95": 0.002,
+    "max_sliver_ratio": 0.01,
+    "min_uv_occupancy": 0.4,
+    "min_valid_bake_pixels": 0.995,
+    "max_stray_ratio": 0.005,
+    "budget_tolerance": 0.05,
+    "texel_density_tolerance": 0.05
+  }
+}

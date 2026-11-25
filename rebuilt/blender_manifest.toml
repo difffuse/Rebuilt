@@ -1,0 +1,28 @@
+schema_version = "1.0.0"
+
+id = "rebuilt"
+version = "0.99.3"
+name = "Rebuilt"
+tagline = "Turn complex models into clean production assets"
+maintainer = "Difffuse Studio"
+type = "add-on"
+
+blender_version_min = "5.2.0"
+# Native bindings are qualified for Blender 5.2 / Python 3.13.
+blender_version_max = "5.3.0"
+
+license = ["SPDX:GPL-3.0-or-later"]
+tags = ["Mesh", "Modeling", "Material", "Bake", "UV"]
+
+# Match the native binaries included in this package.
+platforms = ["macos-arm64"]
+
+[permissions]
+files = "Read source assets and write baked textures and exported models"
+
+[build]
+paths_exclude_pattern = [
+  "__pycache__/",
+  ".git/",
+  "*.zip",
+]
